@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    table{
+        border-collapse: collapse;
+    }
+    td{
+        border: 1px solid  black;
+        padding: 10px;
+    }
+</style>
+
+
+</head>
+<body>
+    <h1>Mesclagem de célula</h1>
+    <h2>Mesclagens colunas (colspan)</h2>
+   
+   
+    <p>
+        <table>
+            <tr>
+                <td>A1</td>
+                <TD>B1</TD>
+                <td>C1</td>        
+                <TD>D1</TD>
+            </tr>
+            <tr>
+                <td>A2</td>
+                <td>B2</td>
+                <td>C2</td>
+                <td>D2</td>
+            </tr>
+        </table>
+    </p>
+    <p>
+        <table>
+            <tr>
+                <td>A1</td>
+                <TD colspan="2"> B1</TD>
+        
+                <TD>D1</TD>
+            </tr>
+            <tr>
+                <td>A2</td>
+                <td>B2</td>
+                <td>C2</td>
+                <td>D2</td>
+            </tr>
+        </table>
+    </p>
+    <h2>Mesclagem da Linha (rowspan)</h2>
+    <p>
+        <table>
+            <tr>
+                <td>A1</td>
+                <TD>B1</TD>
+                <td>C1</td>        
+                <TD>D1</TD>
+            </tr>
+            <tr>
+                <td>A2</td>
+                <td>B2</td>
+                <td>C2</td>
+                <td>D2</td>
+            </tr>
+        </table>
+    </p>
+    <p>
+        <table>
+            <tr>
+                <td>A1</td>
+                <TD rowspan="2">B1</TD>
+                <td>C1</td>        
+                <TD>D1</TD>
+            </tr>
+            <tr>
+                <td>A2</td>
+                
+                <td>C2</td>
+                <td>D2</td>
+            </tr>
+        </table>
+    </p>
+    
+</body>
+</html>
